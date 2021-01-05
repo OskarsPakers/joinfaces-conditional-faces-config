@@ -1,0 +1,18 @@
+joinfaces:
+  jsf:
+    project-stage: development
+---
+
+spring:
+  profiles: lv
+joinfaces:
+  jsf:
+    config-files: faces-config-lv.xml
+
+---
+
+spring:
+  profiles: lt
+joinfaces:
+  jsf:
+    config-files: faces-config-lt.xml
